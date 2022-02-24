@@ -37,7 +37,7 @@ const menu = [
     category: 'beef',
     price: 13.99,
     img: './images/beefpadmakhur.jpg',
-    desc: `Eggplant, onions, basil and bell peppers `,
+    desc: `Eggplant, onions, basil and bell peppers. This amazing dish will suprise you! `,
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ const menu = [
     category: 'dessert',
     price: 6.99,
     img: './images/mangostickyrice.jpg',
-    desc: `fresh mango with sweet creamy sticky rice `,
+    desc: `Fresh mango with sweet creamy sticky rice brings a sweet ending to any meal! `,
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const menu = [
     category: 'dessert',
     price: 6.99,
     img: './images/bananarolls.jpg',
-    desc: `(deep fried bananas rolled in spring roll pastry topped with caramel and chocolate sauce `,
+    desc: `Deep fried bananas rolled in spring roll pastry topped with caramel and chocolate sauce `,
   },
   {
     id: 9,

@@ -238,3 +238,153 @@ Menu
     height: 150px;
   }
 }
+
+/*
+=============== 
+Navbar and Footer
+===============
+*/
+nav {
+  background: gold;
+  box-shadow: var(--light-shadow);
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  
+}
+.nav-toggle {
+  font-size: 1.5rem;
+  color: purple;
+  background: gold;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: pink;
+  transform: rotate(90deg);
+}
+.logo {
+  height: 40px;
+}
+.links a {
+  color: purple;
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+}
+.links a:hover {
+  background: var(--clr-primary-8);
+  color: pink;
+  padding-left: 1.5rem;
+}
+.social-icons {
+  display: none;
+}
+.links-container {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+  
+}
+.show-container {
+  height: 10rem;
+}
+@media screen and (min-width: 800px) {
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+ 
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+  .social-icons {
+    display: flex;
+  }
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: purple;
+    transition: var(--transition);
+  }
+  .social-icons a:hover {
+    color: pink;
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
+  align-content: center;
+}
+
+.aboutUs-container {
+  text-align:center;
+  vertical-align:middle;
+  line-height: 90px;
+  max-width: 50%;
+  height: auto;
+  color: purple;
+}
+
+.app-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Ink Free';
+  font-size: 20px;
+}
+
+.centered {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  align-content: center;
+}
