@@ -10,7 +10,7 @@ export const links = [
   },
   {
     id: 2,
-    url: '#AboutUs',
+    url: 'https://tender-dubinsky-aae904.netlify.app/#AboutUs',
     text: 'About Us',
   },
   {
@@ -20,7 +20,7 @@ export const links = [
   },
   {
     id: 4,
-    url: '#HoursLocation',
+    url: 'https://tender-dubinsky-aae904.netlify.app/#HoursLocation',
     text: 'Hours & Location',
   },
   {
