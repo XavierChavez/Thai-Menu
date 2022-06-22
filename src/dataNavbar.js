@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaTwitter, SiDoordash } from 'react-icons/fa';
 export const links = [
   {
     id: 1,
-    url: '/',
+    url: 'https://tender-dubinsky-aae904.netlify.app/',
     text: 'Home',
   },
   {
